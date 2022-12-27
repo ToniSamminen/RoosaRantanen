@@ -75,7 +75,7 @@ nav ul li a:hover::after{
 }
 /* -------------about---------- */
 #about{
-    padding: 80px 0;
+    padding: 80px 0 5px;
     color: beige;
 }
 .row{
@@ -185,7 +185,7 @@ nav ul li a:hover::after{
 }
 /* --------portfolio--------- */
 #portfolio{
-    padding: 50px 0;
+    padding: 5px 0;
 }
 .work-list{
     display: grid;
@@ -292,7 +292,7 @@ nav ul li a:hover::after{
 }
 
 
-}
+
 form input, form textarea{
     width: 100%;
     border: 0;
@@ -388,15 +388,30 @@ nav .fa-solid{
     }
     
     .contact-left p{
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .contact-left p i{
         color: #00bfff;
         margin-right: 15px;
         font-size: 22px;
     }
+    .social-icons{
+        margin-top: 20px;
+    }
+    .social-icons a{
+        text-decoration: none;
+        font-size: 20px;
+        margin-right: 15px;
+        color: beige;
+        display: inline-block;
+        transition: 0.5s;
+    }
+    .social-icons a:hover{
+        color: #00bfff;
+        transform: translateY(-5px);
+    }
     .copyright{
-        font-size: 14px;
+        font-size: 12px;
     }
     .work img{
         width: 100%;
@@ -407,13 +422,13 @@ nav .fa-solid{
         display: flex;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 5px;
-        margin-top: 10px;
+        margin-top: 40px;
     }
     .layer{
         width: 100%;
-        height: 0;
+        height: 150;
         background: linear-gradient(rgba(0,0,0,0.6), #00bfff);
-        border-radius: 10px;
+        border-radius: 15px;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -432,7 +447,7 @@ nav .fa-solid{
         margin-bottom:20px;
     }
     .layer a{
-        margin-top: 10px;
+        margin-top: 15px;
         color: #00bfff;
         text-decoration: none;
         font-size: 14px;
